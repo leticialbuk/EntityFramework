@@ -1,0 +1,15 @@
+C:\Dev\EntityFramework\bin\Debug\net7.0\EntityFramework.exe
+C:\Dev\EntityFramework\bin\Debug\net7.0\EntityFramework.deps.json
+C:\Dev\EntityFramework\bin\Debug\net7.0\EntityFramework.runtimeconfig.json
+C:\Dev\EntityFramework\bin\Debug\net7.0\EntityFramework.dll
+C:\Dev\EntityFramework\bin\Debug\net7.0\EntityFramework.pdb
+C:\Dev\EntityFramework\obj\Debug\net7.0\EntityFramework.csproj.AssemblyReference.cache
+C:\Dev\EntityFramework\obj\Debug\net7.0\EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\EntityFramework\obj\Debug\net7.0\EntityFramework.AssemblyInfoInputs.cache
+C:\Dev\EntityFramework\obj\Debug\net7.0\EntityFramework.AssemblyInfo.cs
+C:\Dev\EntityFramework\obj\Debug\net7.0\EntityFramework.csproj.CoreCompileInputs.cache
+C:\Dev\EntityFramework\obj\Debug\net7.0\EntityFramework.dll
+C:\Dev\EntityFramework\obj\Debug\net7.0\refint\EntityFramework.dll
+C:\Dev\EntityFramework\obj\Debug\net7.0\EntityFramework.pdb
+C:\Dev\EntityFramework\obj\Debug\net7.0\EntityFramework.genruntimeconfig.cache
+C:\Dev\EntityFramework\obj\Debug\net7.0\ref\EntityFramework.dll

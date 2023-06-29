@@ -1,10 +1,12 @@
-﻿namespace Blog
+﻿using Blog.Data;
+
+namespace Blog
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            using(var context = new BlogDataContext()) { }
         }
     }
-}
+} 
