@@ -27,15 +27,10 @@ namespace Blog
                 //context.SaveChanges();
 
                 //ToList
-                var tags = context
-                    .Tags
-                    .Where(x => x.Name.Contains(".NET"))
-                    .ToList();
-
-                foreach(var tag in tags) 
-                {
-                    Console.WriteLine(tag.Name);
-                }
+                //var tags = context.Tags.ToList();
+                //foreach(var tag in tags) 
+                //    Console.WriteLine(tag.Name);
+                
 
             }
         }
