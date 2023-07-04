@@ -1,5 +1,6 @@
 ﻿using Blog.Data;
 using Blog.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Blog
 {
@@ -10,28 +11,35 @@ namespace Blog
             using(var context = new BlogDataContext()) 
             {
                 //Create
-                //var tag = new Tag { Name = ".NET", Slug = "dotnet" };
-                //context.Tags.Add(tag);  
-                //context.SaveChanges();
+                var tag = new Tag { Name = ".NET", Slug = "dotnet" };
+                
+                context.Tags.Add(tag);  
+                context.SaveChanges();
 
                 //Update
-                //var tag = context.Tags.FirstOrDefault(x=>x.Id == 3);
-                //tag.Name = ".NET";
-                //tag.Slug = "dotnet";
-                //context.Update(tag);
-                //context.SaveChanges();
+                var tag = context.Tags.FirstOrDefault(x=>x.Id == 3);
+                tag.Name = ".NET";
+                tag.Slug = "dotnet";
+                
+                context.Update(tag);
+                context.SaveChanges();
 
                 //Delete
-                //var tag = context.Tags.FirstOrDefault(x => x.Id == 3);
-                //context.Remove(tag);
-                //context.SaveChanges();
+                var tag = context.Tags.FirstOrDefault(x => x.Id == 3);
+                
+                context.Remove(tag);
+                context.SaveChanges();
 
                 //ToList
-                //var tags = context.Tags.ToList();
-                //foreach(var tag in tags) 
-                //    Console.WriteLine(tag.Name);
-                
+                var tags = context
+                    .Tags
+                    .AsNoTracking()
+                    .ToList();
 
+                foreach(var tag in tags) 
+                {
+                    Console.WriteLine(tag.Name);
+                }
             }
         }
     }
